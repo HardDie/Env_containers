@@ -1,0 +1,28 @@
+logfile /var/log/pppoe.log
+auth
+#crtscts
+mtu 1472
+mru 1472
+nodefaultroute
+#predictor1
+#lock
+noproxyarp
+#silent
+#noccp false
+#modem
+#require ccp
+#compression acfc
+#-pc
+#asyncmap 0
+#hide-password 
+#require-mschap-v2
+login
+default-asyncmap
+ktune
+lcp-echo-interval 20
+lcp-echo-failure 2
+ms-dns 10.80.10.20
+ms-dns 10.80.10.21
+#ms-dns 8.8.8.8
+#ms-dns 8.8.4.4
+#debug
